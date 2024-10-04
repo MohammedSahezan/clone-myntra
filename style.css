@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color: black;
+}
+header{
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(149, 149, 149);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.nav-logo {
+    margin-left: 3.5%;
+}
+.nav-logo a img {
+    
+    width: 50px;
+    
+}
+a {
+    text-decoration: none;
+}
+.nav-bar {
+    min-width: 500px;  
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    padding: 28px 0;
+    
+
+}
+.border-ani:hover{
+    padding: 29px 0 ;
+
+    border-bottom: 4px solid red;
+
+}
+.nav-bar sup {
+    color: rgb(220, 79, 79);
+    font-size: .7rem;
+    font-weight: 600;
+}
+.serach-bar  {
+   min-width: 400px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.serach-bar input {
+    width: 350px;
+    height: 30px;
+    border-radius: 0 4px 4px 0;
+    background-color: whitesmoke;
+    padding-left: 1px;
+    border: 0;   
+}
+
+
+.serach-bar span {
+    box-sizing: content-box;
+    height: 30px;
+    width: 30px;
+    background-color: whitesmoke;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 2px ;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    opacity: .8;
+}
+
+.add-card {
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    cursor: pointer;
+    padding: 0 0 0 2px;
+}
+.item {
+      
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;    
+    
+}
+.item span {
+    font-weight: 400;
+}
+/* main */
+
+/* tag lind */
+
+
+.tag-line {
+    margin-top: 10px;
+    font-size: 1.7rem;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: #3e4152;
+    text-transform: uppercase;
+}
+.hero_img {
+    padding: 100px 0;
+}
+.hero_img img {
+    width: 100%;
+}
+.medal_brands { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+} 
+.medal_brands a img {
+    width: 200px;
+}
+.brands { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+/* footer */
+footer{
+    border-top:.5px solid transparent;
+    background-color: #F5F7F8;
+    color:  #696b79;
+    /* display: flex; */
+    padding-top: 10px;
+    /* margin: 0 10px; */
+   
+}
+
+.footer1{
+    display: flex;
+   justify-content: space-evenly;    
+    /* row-gap: 40px;   */
+    margin-top: 25px;
+}
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+ 
+}
+.footer-head {
+    color:#282c3f ;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.footer-left {
+    width: 400px;
+    height: 150px;
+}
+.fo-img{ 
+    display: flex;
+    background-size: cover;
+
+}
+.fo-img1{
+    margin-top: 15px;
+    width:150px ;
+    height: 50px;
+    border-radius: 5px;
+    background: transparent;
+}
+.icone-fo{
+    margin-top: 10px;
+    row-gap: 50px;
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+.icone-fo a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icone-fo a i {
+    width: 30px;
+    height: 30px ;
+    background-size:cover;
+    border-radius: 2px;
+    opacity: .5;
+    background-color: #eaeaea;
+}
+
+.origin1{ 
+    padding: 15px;
+    display: flex;
+    width: 290px;
+    gap: 10px;
+    /* float: left; */
+}
+.origin1 span {
+    font-size: 14px;
+}
+.orig-img{
+ width: 48px;   
+ height: 40px;
+}
+.footer4 {
+    margin-left:  120px;
+}
+.last-fo {
+    padding-top: 10px;
+    margin-left: 120px;
+    width: 1100px;
+}
+.last-fo span  {
+    border: outset solid black ;
+}
+.last-p {
+    
+    line-height: 25px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.last-copy {
+    color: #696b79;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid  #696b79 ;
+}
+.last-copy p span {
+    /* font-size: 20px; */
+    font-weight: 700;
+    color: #526cd0;
+    cursor: pointer;
+}

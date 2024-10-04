@@ -1,0 +1,72 @@
+.bag-contaner {
+    display: flex;
+    gap: 2px;
+}
+.left-bag-item {
+    margin-top: 10%;
+    border: 1px solid black;
+    width: 50%;
+    height: 100vh;
+
+}   
+.left-bag-contex {
+    margin-top: 5%;
+    height: fit-content;
+    width: 60%;
+    border: 1px solid black;
+    display: flex;
+    
+    
+    
+    
+}
+.prodect-img {
+    margin-left: 2%;
+    width: 30%;
+}
+.left-rigt-item{
+    gap: 1.5px;
+    padding-left: 2%;
+    margin-top: 5%;
+}
+
+.bag-current-prices {
+    color: black;
+    font-weight: 600;
+}
+.bag-original-prices {
+    font-size: 10px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+.bag-discount-prices {
+    color: rgb(238, 74, 74);
+}
+.return{
+    margin-top: 6%;
+    font-size: 18px;
+
+}
+.return span {
+    font-weight: 700;
+}
+.d-date {
+    font-size: .9rem;
+    color: rgb(84, 213, 213);
+}
+
+/* price bag */
+.right-bag-item {
+    margin-top: 10%;
+    width: 50%;
+    
+    border: 1px solid red;
+}
+.clear {
+    position: absolute;
+    left: 26%;
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    margin-top: 4px;
+}
